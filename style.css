@@ -1,6 +1,6 @@
 body {
-    font-family: sans-serif;
     background-color: black;
+    font-family: initial;
 }
 
 header {
@@ -22,12 +22,14 @@ nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
-    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
 }
 
 .nav-link {
     font-size: 24px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
